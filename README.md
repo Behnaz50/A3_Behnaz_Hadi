@@ -30,7 +30,5 @@ This data includes information about 596 patients. Each patient has 30 character
 'worst compactness',
 'worst concavity',
 'worst concave points',
-'worst symmetry'.
-
-
-'worst fractal dimension'
+'worst symmetry'
+'worst fractal dimension'.
