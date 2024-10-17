@@ -210,6 +210,6 @@ print(gs.best_score_,gs.best_params_)
 # RF                     0.9648502905545159                  {'criterion': 'entropy', 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 20, 'random_state': 42}
 # SVM                    0.9490052201319807                  {'C': 1000, 'degree': 2, 'gamma': 'scale', 'kernel': 'rbf', 'random_state': 42}
 
-# According on the available data, the Forest Random algorithm delivers the best results.
+# According on the available data, the Random Forest algorithm delivers the best results.
 
 
