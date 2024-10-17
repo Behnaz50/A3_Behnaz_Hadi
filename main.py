@@ -194,3 +194,22 @@ gs.best_score_ # 0.9490052201319807    % accuracy
 gs.best_params_
 print(gs.best_score_,gs.best_params_)
 #----------------------------------------------------------------------------------------------------------#
+
+
+####################################################################################################################################
+#                                                   Conclusion
+####################################################################################################################################
+# The table below shows the optimal accuracy of each approach and the optimal model parameters:
+
+#----------------------------------------------------------------------------------------------------------------------------------#  
+# Method                 Best score (Accuracy)                           Best model parameters
+#----------------------------------------------------------------------------------------------------------------------------------#  
+# LR                     0.9525263468925441                  {'C': 3, 'max_iter': 10000, 'random_state': 42, 'solver': 'lbfgs'}
+# KNN                    0.9437112183591057                  {'metric': 'manhattan', 'n_neighbors': 10}
+# DT                     0.9367058997340687                  {'criterion': 'gini', 'max_depth': 6, 'min_samples_leaf': 1, 'min_samples_split': 2, 'random_state': 42}
+# RF                     0.9648502905545159                  {'criterion': 'entropy', 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 20, 'random_state': 42}
+# SVM                    0.9490052201319807                  {'C': 1000, 'degree': 2, 'gamma': 'scale', 'kernel': 'rbf', 'random_state': 42}
+
+# According on the available data, the Forest Random algorithm delivers the best results.
+
+
